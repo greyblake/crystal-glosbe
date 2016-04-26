@@ -1,5 +1,10 @@
+require "json"
+require "http"
+
 require "./glosbe/*"
 
 module Glosbe
-  # TODO Put your code here
+  class Error < ::Exception; end
+  class HttpError < Error; end
+  class ParseError < Error; end
 end
