@@ -2,12 +2,22 @@ module Glosbe
   class Client
     API_URL = "https://glosbe.com/gapi_v0_1"
 
+    # Translate from `from` language into `dest`. Include examples if `tm` is true.
+    #
+    # ```crystal
+    # client.translate("ru", "eo", "привет")
+    # ```
     def translate(from : String|Symbol, dest : String|Symbol, phrase : String, tm : Bool = false) : TranslateResponse
       params = { "from" => from, "dest" => dest, "phrase" => phrase, "tm" => tm.to_s }
       http_response = call("translate", params)
       process_http_response(http_response, TranslateResponse)
     end
 
+    # Access translation memory (examples of word usage).
+    #
+    # ```crystal
+    # client.tm("ru", "eo", "привет")
+    # ```
     def tm(from : String|Symbol, dest : String|Symbol, phrase : String, page : Integer = 1, page_size : Integer = 30) : TmResponse
       params = { "from" => from, "dest" => dest, "phrase" => phrase, "page" => page.to_s, "pageSize" => page_size.to_s }
       http_response = call("tm", params)

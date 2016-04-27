@@ -1,8 +1,6 @@
-# Glosbe
+# Glosbe [![Build Status](https://travis-ci.org/greyblake/crystal-glosbe.svg?branch=master)](https://travis-ci.org/greyblake/crystal-glosbe)
 
 Crystal client for [Glosbe API](https://glosbe.com/a-api)
-
-[![Build Status](https://travis-ci.org/greyblake/crystal-glosbe.svg?branch=master)](https://travis-ci.org/greyblake/crystal-glosbe)
 
 ## Installation
 
