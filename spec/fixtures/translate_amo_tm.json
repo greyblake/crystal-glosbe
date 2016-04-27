@@ -1,0 +1,196 @@
+{
+  "result" : "ok",
+  "tuc" : [ {
+    "phrase" : {
+      "text" : "love",
+      "language" : "en"
+    },
+    "meanings" : [ {
+      "language" : "en",
+      "text" : "romantic feelings"
+    }, {
+      "language" : "en",
+      "text" : "strong affection"
+    }, {
+      "language" : "en",
+      "text" : "An intense feeling of affection and care towards another person."
+    }, {
+      "language" : "en",
+      "text" : "strong affection"
+    }, {
+      "language" : "en",
+      "text" : "romantic feelings"
+    }, {
+      "language" : "en",
+      "text" : "strong affection"
+    } ],
+    "meaningId" : -2489212286980442687,
+    "authors" : [ 70195 ]
+  }, {
+    "phrase" : {
+      "text" : "affection",
+      "language" : "en"
+    },
+    "meanings" : [ {
+      "language" : "en",
+      "text" : "affection (love)"
+    } ],
+    "meaningId" : -3410538625102826746,
+    "authors" : [ 2910 ]
+  }, {
+    "phrase" : {
+      "text" : "fondness",
+      "language" : "en"
+    },
+    "meaningId" : 5264111498499436599,
+    "authors" : [ 69425 ]
+  }, {
+    "phrase" : {
+      "text" : "passion",
+      "language" : "en"
+    },
+    "meaningId" : -2538208232869011935,
+    "authors" : [ 2700 ]
+  }, {
+    "meanings" : [ {
+      "language" : "eo",
+      "text" : "love"
+    } ],
+    "meaningId" : 6830501409092613370,
+    "authors" : [ 1 ]
+  } ],
+  "phrase" : "amo",
+  "examples" : [ {
+    "author" : 74,
+    "first" : "Mia amo",
+    "second" : "My love"
+  }, {
+    "author" : 74,
+    "first" : "Pro <strong class=\"keyword\">amo</strong> al la kandelo kato lekas la kandelingon.",
+    "second" : "The cat is licking the candle stand out of <strong class=\"keyword\">love</strong> for the candle."
+  }, {
+    "author" : 74,
+    "first" : "La <strong class=\"keyword\">amo</strong> aperas en horizonto.",
+    "second" : "<strong class=\"keyword\">Love</strong> appears over the horizon."
+  }, {
+    "author" : 74,
+    "first" : "Oni ne ŝercu pri <strong class=\"keyword\">amo</strong>.",
+    "second" : "We musn't joke around with <strong class=\"keyword\">love</strong>."
+  }, {
+    "author" : 74,
+    "first" : "Koncize dirite, li edziĝis al sia unua <strong class=\"keyword\">amo</strong>.",
+    "second" : "To make a long story short, he married his first <strong class=\"keyword\">love</strong>."
+  }, {
+    "author" : 74,
+    "first" : "Por la <strong class=\"keyword\">amo</strong> de dio!",
+    "second" : "For God's sake!"
+  }, {
+    "author" : 74,
+    "first" : "Je la <strong class=\"keyword\">amo</strong> de Dio, mia filo, kaj je la gloro de Hispanujo, formanĝu la damnajn pizojn!",
+    "second" : "For the <strong class=\"keyword\">love</strong> of Christ, son, for the glory of Spain, eat your goddamned peas!"
+  }, {
+    "author" : 74,
+    "first" : "La <strong class=\"keyword\">amo</strong> al libero kondukis nin ĉi tien.",
+    "second" : "The <strong class=\"keyword\">love</strong> of liberty brought us here."
+  }, {
+    "author" : 74,
+    "first" : "Li estas mia unua <strong class=\"keyword\">amo</strong>.",
+    "second" : "She's my first <strong class=\"keyword\">love</strong>."
+  }, {
+    "author" : 74,
+    "first" : "Sen <strong class=\"keyword\">amo</strong> poetoj ne povas vivi.",
+    "second" : "Poets cannot live without <strong class=\"keyword\">love</strong>."
+  }, {
+    "author" : 74,
+    "first" : "Enamiĝinteco ne identas kun <strong class=\"keyword\">amo</strong>. Oni povas esti enamiĝinta al virino kaj tamen malami ŝin.",
+    "second" : "To be in <strong class=\"keyword\">love</strong> is not the same as <strong class=\"keyword\">loving</strong>. You can be in <strong class=\"keyword\">love</strong> with a woman and still hate her."
+  }, {
+    "author" : 74,
+    "first" : "<strong class=\"keyword\">Amo</strong> estas forta, sed mono pli forta.",
+    "second" : "<strong class=\"keyword\">Love</strong> is strong, but money is stronger."
+  }, {
+    "author" : 74,
+    "first" : "Ĉu vi scias, kio estas <strong class=\"keyword\">amo</strong>?",
+    "second" : "Do you know what <strong class=\"keyword\">love</strong> is?"
+  }, {
+    "author" : 74,
+    "first" : "La <strong class=\"keyword\">amo</strong> venkas ĉion.",
+    "second" : "<strong class=\"keyword\">Love</strong> conquers all."
+  }, {
+    "author" : 74,
+    "first" : "Por <strong class=\"keyword\">amo</strong> mi farus ĉion.",
+    "second" : "I would do anything for <strong class=\"keyword\">love</strong>."
+  }, {
+    "author" : 74,
+    "first" : "<strong class=\"keyword\">Amo</strong> blindas.",
+    "second" : "<strong class=\"keyword\">Love</strong> is blind."
+  }, {
+    "author" : 74,
+    "first" : "<strong class=\"keyword\">Amo</strong> ne estas ludo, tial vi ne povas elekti la plej bonajn pecojn!",
+    "second" : "<strong class=\"keyword\">Love</strong> isn't a game, so you can't just cherry pick the best bits!"
+  }, {
+    "author" : 74,
+    "first" : "Kion mi volas ne perdi, estas <strong class=\"keyword\">amo</strong>.",
+    "second" : "What I don't want to lose is <strong class=\"keyword\">love</strong>."
+  }, {
+    "author" : 74,
+    "first" : "Ilia domo plenas de rido kaj <strong class=\"keyword\">amo</strong>.",
+    "second" : "Their home is abundant in <strong class=\"keyword\">love</strong> and laughter."
+  }, {
+    "author" : 74,
+    "first" : "Mi petas vin, pro <strong class=\"keyword\">amo</strong> al la homaro, lernu vian lingvon!",
+    "second" : "Please, for the <strong class=\"keyword\">love</strong> of mankind, learn your language."
+  }, {
+    "author" : 74,
+    "first" : "Kio estas <strong class=\"keyword\">amo</strong>?",
+    "second" : "What is <strong class=\"keyword\">love</strong>?"
+  }, {
+    "author" : 74,
+    "first" : "Ne estas feliĉa <strong class=\"keyword\">amo</strong>.",
+    "second" : "There is no happy <strong class=\"keyword\">love</strong>."
+  }, {
+    "author" : 74,
+    "first" : "<strong class=\"keyword\">Amo</strong> blindas laŭnature.",
+    "second" : "<strong class=\"keyword\">Love</strong> is by nature blind."
+  } ],
+  "from" : "eo",
+  "dest" : "en",
+  "authors" : {
+    "69425" : {
+      "U" : "",
+      "id" : 69425,
+      "N" : "plwiktionary.org",
+      "url" : "https://glosbe.com/source/69425"
+    },
+    "1" : {
+      "U" : "http://en.wiktionary.org",
+      "id" : 1,
+      "N" : "en.wiktionary.org",
+      "url" : "https://glosbe.com/source/1"
+    },
+    "70195" : {
+      "U" : "",
+      "id" : 70195,
+      "N" : "en.wiktionary.org_2014",
+      "url" : "https://glosbe.com/source/70195"
+    },
+    "74" : {
+      "U" : "http://tatoeba.org",
+      "id" : 74,
+      "N" : "tatoeba",
+      "url" : "https://glosbe.com/source/74"
+    },
+    "2700" : {
+      "U" : "http://dumps.wikimedia.org/ruwiktionary/latest/ruwiktionary-latest-pages-articles.xml.bz2",
+      "id" : 2700,
+      "N" : "Vikislovar",
+      "url" : "https://glosbe.com/source/2700"
+    },
+    "2910" : {
+      "U" : "http://denizo.opia.dk/la.trezorejo/vortaroj.kaj.terminaroj/",
+      "id" : 2910,
+      "N" : "Esperanto-to-English",
+      "url" : "https://glosbe.com/source/2910"
+    }
+  }
+}

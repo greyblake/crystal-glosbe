@@ -10,6 +10,14 @@ module Glosbe
     })
   end
 
+  class TmResponse
+    JSON.mapping({
+      result: String,
+      found: UInt32,
+      examples: { type: Array(Example), default: [] of Example }
+    })
+  end
+
   class Translation
     JSON.mapping({
       phrase: { type: Text, nilable: true },
@@ -29,14 +37,6 @@ module Glosbe
       author: { type: UInt32, nilable: true },
       first: String,
       second: String
-    })
-  end
-
-  class TmResponse
-    JSON.mapping({
-      result: String,
-      found: UInt32,
-      examples: { type: Array(Example), default: [] of Example }
     })
   end
 end

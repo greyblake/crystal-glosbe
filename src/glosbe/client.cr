@@ -1,6 +1,6 @@
 module Glosbe
   class Client
-    API_URL = "https://glosbe.com/gapi_v0_1/"
+    API_URL = "https://glosbe.com/gapi_v0_1"
 
     def translate(from : String|Symbol, dest : String|Symbol, phrase : String, tm : Bool = false) : TranslateResponse
       params = { "from" => from, "dest" => dest, "phrase" => phrase, "tm" => tm.to_s }
@@ -31,7 +31,7 @@ module Glosbe
         raise HttpError.new(msg)
       end
     rescue err : JSON::ParseException
-      raise ParseError.new("Cannot parse: #{http_response.try &.body}", err)
+      raise ParseError.new("Can't parse: #{http_response.try &.body}", err)
     end
   end
 end

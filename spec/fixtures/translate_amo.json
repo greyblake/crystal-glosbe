@@ -1,0 +1,97 @@
+{
+  "result" : "ok",
+  "tuc" : [ {
+    "phrase" : {
+      "text" : "love",
+      "language" : "en"
+    },
+    "meanings" : [ {
+      "language" : "en",
+      "text" : "romantic feelings"
+    }, {
+      "language" : "en",
+      "text" : "strong affection"
+    }, {
+      "language" : "en",
+      "text" : "An intense feeling of affection and care towards another person."
+    }, {
+      "language" : "en",
+      "text" : "strong affection"
+    }, {
+      "language" : "en",
+      "text" : "romantic feelings"
+    }, {
+      "language" : "en",
+      "text" : "strong affection"
+    } ],
+    "meaningId" : -2489212286980442687,
+    "authors" : [ 70195 ]
+  }, {
+    "phrase" : {
+      "text" : "affection",
+      "language" : "en"
+    },
+    "meanings" : [ {
+      "language" : "en",
+      "text" : "affection (love)"
+    } ],
+    "meaningId" : -3410538625102826746,
+    "authors" : [ 2910 ]
+  }, {
+    "phrase" : {
+      "text" : "fondness",
+      "language" : "en"
+    },
+    "meaningId" : 5264111498499436599,
+    "authors" : [ 69425 ]
+  }, {
+    "phrase" : {
+      "text" : "passion",
+      "language" : "en"
+    },
+    "meaningId" : -2538208232869011935,
+    "authors" : [ 2700 ]
+  }, {
+    "meanings" : [ {
+      "language" : "eo",
+      "text" : "love"
+    } ],
+    "meaningId" : 6830501409092613370,
+    "authors" : [ 1 ]
+  } ],
+  "phrase" : "amo",
+  "from" : "eo",
+  "dest" : "en",
+  "authors" : {
+    "69425" : {
+      "U" : "",
+      "id" : 69425,
+      "N" : "plwiktionary.org",
+      "url" : "https://glosbe.com/source/69425"
+    },
+    "1" : {
+      "U" : "http://en.wiktionary.org",
+      "id" : 1,
+      "N" : "en.wiktionary.org",
+      "url" : "https://glosbe.com/source/1"
+    },
+    "70195" : {
+      "U" : "",
+      "id" : 70195,
+      "N" : "en.wiktionary.org_2014",
+      "url" : "https://glosbe.com/source/70195"
+    },
+    "2700" : {
+      "U" : "http://dumps.wikimedia.org/ruwiktionary/latest/ruwiktionary-latest-pages-articles.xml.bz2",
+      "id" : 2700,
+      "N" : "Vikislovar",
+      "url" : "https://glosbe.com/source/2700"
+    },
+    "2910" : {
+      "U" : "http://denizo.opia.dk/la.trezorejo/vortaroj.kaj.terminaroj/",
+      "id" : 2910,
+      "N" : "Esperanto-to-English",
+      "url" : "https://glosbe.com/source/2910"
+    }
+  }
+}
