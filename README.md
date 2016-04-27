@@ -1,6 +1,8 @@
-# glosbe
+# Glosbe
 
-TODO: Write a description here
+Crystal client for [Glosbe API](https://glosbe.com/a-api)
+
+[![Build Status](https://travis-ci.org/greyblake/crystal-glosbe.svg?branch=master)](https://travis-ci.org/greyblake/crystal-glosbe)
 
 ## Installation
 
@@ -10,31 +12,47 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   glosbe:
-    github: greyblake/glosbe
+    github: greyblake/crystal-glosbe
 ```
-
 
 ## Usage
 
-
 ```crystal
 require "glosbe"
+
+client = Glosbe::Client.new
+
+# Translate a word from German to English
+response = client.translate("de", "en", "Achtung", tm: true)  # =>  #<Glosbe::TranslateResponse ... >
+
+# Print translations
+response.tuc.each do |translation|
+  puts translation.phrase.try(&.text)
+end
+
+# Print examples of usage
+response.examples.each do |example|
+  puts example.first    # sentence in German
+  puts example.second   # translation in English
+end
 ```
 
+Please check [Glosbe::Client](https://github.com/greyblake/crystal-glosbe/blob/master/src/glosbe/client.cr)
+and [Glosbe API](https://glosbe.com/a-api) for more details.
 
-TODO: Write usage instructions here
+### Errors
 
-## Development
+Client methods may raise the following errors:
 
-TODO: Write development instructions here
+* Glosbe::Error
+ * Glosbe::HttpError
+ * Glosbe::ParseError
 
-## Contributing
+## Running tests
 
-1. Fork it ( https://github.com/greyblake/glosbe/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
+```
+crystal spec
+```
 
 ## Contributors
 
