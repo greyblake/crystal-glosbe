@@ -2,8 +2,6 @@ require "../src/glosbe"
 
 client = Glosbe::Client.new
 
-client = Glosbe::Client.new
-
 # Translate a word from German to English
 response = client.translate("de", "en", "Achtung", tm: true)  # =>  #<Glosbe::TranslateResponse ... >
 

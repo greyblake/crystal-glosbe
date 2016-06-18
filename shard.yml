@@ -6,7 +6,12 @@ authors:
 
 license: MIT
 
+dependencies:
+  cossack:
+    github: greyblake/crystal-cossack
+    version: ~> 0.1.0
+
 development_dependencies:
-  webmock:
-    github: manastech/webmock.cr
-    version: ~> 0.7.0
+  spec2:
+    github: greyblake/spec2.cr
+    branch: crystal-0-18-0

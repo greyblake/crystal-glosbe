@@ -1,8 +1,6 @@
 require "../src/glosbe"
 
-require "spec"
-require "webmock"
-
+require "spec2"
 
 FIXTURES_PATH = File.expand_path("../fixtures", __FILE__)
 

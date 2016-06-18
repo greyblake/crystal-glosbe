@@ -2,6 +2,15 @@ module Glosbe
   class Client
     API_URL = "https://glosbe.com/gapi_v0_1"
 
+    def initialize
+      @cossack = Cossack::Client.new(API_URL)
+      yield @cossack
+    end
+
+    def initialize
+      @cossack = Cossack::Client.new(API_URL)
+    end
+
     # Translate from `from` language into `dest`. Include examples if `tm` is true.
     #
     # ```crystal
@@ -26,18 +35,14 @@ module Glosbe
 
     private def call(method, params)
       params.merge!({"format" => "json"})
-      params_str = HTTP::Params.build do |form|
-        params.each { |name, val| form.add(name, val) }
-      end
-      url = "#{API_URL}/#{method}?#{params_str}"
-      http_response = HTTP::Client.get(url)
+      @cossack.get(method, params)
     end
 
     private def process_http_response(http_response, response_class)
-      if http_response.success?
+      if http_response.status == 200
         response_class.from_json(http_response.body)
       else
-        msg = "#{http_response.status_message} [#{http_response.status_code}]"
+        msg = "#{http_response.status} [#{http_response.status}]"
         raise HttpError.new(msg)
       end
     rescue err : JSON::ParseException

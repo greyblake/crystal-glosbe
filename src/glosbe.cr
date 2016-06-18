@@ -1,6 +1,8 @@
 require "json"
 require "http"
 
+require "../../cossack/src/cossack"
+
 require "./glosbe/*"
 
 module Glosbe
