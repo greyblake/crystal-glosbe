@@ -1,5 +1,5 @@
 name: glosbe
-version: 0.1.0
+version: 0.1.1
 
 authors:
   - Sergey Potapov <blake131313@gmail.com>
@@ -9,7 +9,7 @@ license: MIT
 dependencies:
   cossack:
     github: greyblake/crystal-cossack
-    version: ~> 0.1.0
+    version: ~> 0.1.2
 
 development_dependencies:
   spec2:

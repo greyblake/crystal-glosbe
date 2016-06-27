@@ -1,7 +1,6 @@
 require "json"
 require "http"
-
-require "../../cossack/src/cossack"
+require "cossack"
 
 require "./glosbe/*"
 
